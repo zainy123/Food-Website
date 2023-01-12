@@ -1,0 +1,29 @@
+<div className='flex flex-col items-center border w-1/2 mt-4 justify-center h-[1250px] ring-black'>
+         <div className='flex items-center justify-between p-3 mt-5'>
+            <div className=''>
+               <p><span>S</span>tartup</p>
+            </div>
+            <div className='list-none cursor-pointer'>
+               <ul className='flex space-x-3 items-center'>
+                  {
+                     menuItems.map(menuItem => (
+                        <li>{ menuItem.label }</li>
+                     ))
+                  }
+                  <li>
+                     <button type='text' className='border rounded-3xl outline-none border-none p-2 bg-pink-600 text-white tracking-widest'>Sign in</button>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div className='flex items-center justify-between p-3'>
+            <div className='flex flex-col items-start space-y-6'>
+               <h3><span className='font-bold text-2xl tracking-wider'>Startup</span> Your Bussiness With Us</h3>
+               <p>Our New Service Makes It easy for you to make new product. there are new features to improve</p>
+               <button type='text'>Get Started</button>
+            </div>
+            <div className='h-80 w-80'>
+               <img  className='img' alt='img'/>
+            </div>
+         </div>
+      </div>
