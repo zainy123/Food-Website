@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+.main-container{
+   background-image: url('/src/assests/2.jpg');
+   background-position: center;
+   background-size: cover;
+}
+.banner{
+   background-image: url('/src/assests/banner.jpg');
+   opacity: 0.8;
+}
+/* .header.sticky{
+   background: #fff;
+   color: black;
+   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+} */
